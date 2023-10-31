@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "frontend-app",
+			"path": "../container/frontend-app"
+		},
+		{
+			"name": "defect-detection",
+			"path": "../defect-detection"
+		},
+		{
+			"name": "util",
+			"path": "../eks-workshop-v2/test/util"
+		},
+		{
+			"name": "website",
+			"path": "../eks-workshop-v2/website"
+		},
+		{
+			"name": "nodejs14.x-app1",
+			"path": "../eks-workshop-v2/terraform/.terraform/modules/ide.cloud9_bootstrap_lambda/examples/fixtures/nodejs14.x-app1"
+		}
+	],
+	"settings": {
+		"jest.disabledWorkspaceFolders": [
+			"codes",
+			"util",
+			"website",
+			"nodejs14.x-app1"
+		]
+	}
+}
